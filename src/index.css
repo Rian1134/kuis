@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@layer components {
+  .card {
+    @apply border border-gray-600 rounded-md bg-white justify-start text-left
+  }
+  .card-body{
+    @apply p-5
+  }
+
+  .btn-success {
+    @apply bg-green-400 text-white text-center px-4 py-1 rounded-sm hover:opacity-80 active:brightness-95
+  }
+
+  .btn-primary {
+    @apply bg-blue-400 text-white text-center px-4 py-1 rounded-sm hover:opacity-80 active:brightness-95
+  }
+}
