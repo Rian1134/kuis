@@ -244,7 +244,7 @@ const Kuis = () => {
   return (
     <div className="p-3">
       {soalData.map((soal) => (
-        <div key={soal.nomor} className="card text-balance mb-4">
+        <div key={soal.nomor} className="card mb-4">
           <div className="card-body">
             <div className="text-sm mb-4">
               <p>{soal.soal}</p>
